@@ -1,0 +1,41 @@
+button {
+  @include rounded-5px;
+  @include default-font;
+  font-size: 1rem;
+  padding: 10px;
+  border: 2px solid $default-dark;
+}
+
+.info {
+  background-color: rgb(228, 228, 228);
+  color: $default-dark;
+  border-color: grey;
+
+  &:hover {
+    background-color: grey;
+    @include bold;
+    color: $default-white;
+  }
+}
+
+.danger {
+  background-color: $default-red;
+  color: $default-white;
+  border-color: $darker-red;
+
+  &:hover {
+    @include bold;
+    background-color: $lighter-red;
+  }
+}
+
+.confirm {
+  background-color: $default-green;
+  color: $default-white;
+  border-color: $darker-green;
+
+  &:hover {
+    @include bold;
+    background-color: $lighter-green;
+  }
+}

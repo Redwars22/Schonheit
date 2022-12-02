@@ -1,65 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
-@function getFontSize($factor) {
-  @return (12 + $factor) px;
-}
+@import "base/typography";
+@import "base/colors";
+@import "base/containers";
+@import "base/guidelines";
+@import "base/buttons";
 
-$h1: getFontSize(20);
-$h2: getFontSize(16);
-$h3: getFontSize(12);
-$h4: getFontSize(8);
-$h5: getFontSize(4);
-$h6: getFontSize(2);
-$paragraph: getFontSize(0);
-$font: "Roboto";
-
-@mixin bold {
-  font-weight: bold;
-}
-
-@mixin default-font {
-  font-family: $font, sans-serif;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  @include bold;
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: $default-dark;
+  color: $default-white;
   @include default-font;
 }
-
-h1 {
-  font-size: $h1;
-}
-
-h2 {
-  font-size: $h2;
-}
-
-h3 {
-  font-size: $h3;
-}
-
-h4 {
-  font-size: $h4;
-}
-
-h5 {
-  font-size: $h5;
-}
-
-h6 {
-  font-size: $h6;
-}
-
-p {
-  @include default-font;
-  font-size: $paragraph;
-}
-
-/*
-.bold, .italic, .underline, .strikethrough
-*/
