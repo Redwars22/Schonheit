@@ -22,3 +22,11 @@ $darker-yellow: #d69302;
 .red {
     color: $default-red;
 }
+
+.red-bg {
+    background-color: $default-red;
+}
+
+.red-border {
+    border: 5px solid $darker-red;
+}

@@ -54,6 +54,14 @@ p {
   color: #fc0341;
 }
 
+.red-bg {
+  background-color: #fc0341;
+}
+
+.red-border {
+  border: 5px solid #940025;
+}
+
 .horizontal {
   display: flex;
   flex-direction: row;
@@ -80,6 +88,12 @@ code {
   font-family: "JetBrains Mono", monospace;
   border-radius: 10px;
   padding: 10px;
+}
+
+.container {
+  min-width: 150px;
+  min-height: 150px;
+  border-radius: 10px;
 }
 
 button {
