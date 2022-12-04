@@ -1,0 +1,29 @@
+.form-input {
+    background-color: $default-dark-gray;
+    font-size: 1.4rem;
+    color: $default-white;
+    border: 3px solid $darker-gray;
+    @include rounded-10px;
+    @include minimal-padding;
+    @include default-font;
+
+    &:active {
+        border: 3px solid $default-red;
+    }
+}
+
+.form-submit {
+    @include button;
+    background-color: $default-green;
+    color: $default-white;
+    border-color: $darker-green;
+  
+    &:hover {
+      @include bold;
+      background-color: $lighter-green;
+    }
+}
+
+.form-label {
+
+}

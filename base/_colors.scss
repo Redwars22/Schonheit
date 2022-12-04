@@ -1,5 +1,8 @@
-$default-dark: #21130d;
+$default-dark: #111418;
 $default-white: #fff;
+
+$default-dark-gray: #302f2d;
+$darker-gray: #1c1c1b;
 
 /* RED */
 $default-red: #fc0341;
@@ -10,3 +13,12 @@ $darker-red: #940025;
 $default-green: #08c274;
 $lighter-green: #2ff5a2;
 $darker-green: #00804a;
+
+/* YELLOW */
+$default-yellow: #ffb10a;
+$lighter-yellow: #f7c559;
+$darker-yellow: #d69302;
+
+.red {
+    color: $default-red;
+}

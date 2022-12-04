@@ -1,0 +1,7 @@
+code {
+    background-color: $darker-gray;
+    border: 4px solid $default-dark-gray;
+    font-family: 'JetBrains Mono', monospace;
+    @include rounded-10px;
+    @include moderate-padding;
+}

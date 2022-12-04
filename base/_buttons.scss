@@ -1,9 +1,13 @@
-button {
+@mixin button {
   @include rounded-5px;
   @include default-font;
   font-size: 1rem;
   padding: 10px;
   border: 2px solid $default-dark;
+}
+
+button {
+  @include button;
 }
 
 .info {
@@ -39,3 +43,20 @@ button {
     background-color: $lighter-green;
   }
 }
+
+.warning {
+  background-color: $default-yellow;
+  border-color: $darker-yellow;
+
+  &:hover {
+    @include bold;
+    background-color: $lighter-yellow;
+  }
+}
+
+.outline {
+  background-color: rgba(0, 0, 0, 0);
+  color: $default-white;
+}
+
+.dark {}
