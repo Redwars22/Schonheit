@@ -1,5 +1,4 @@
 $default-dark: #111418;
-$default-white: #fff;
 
 $default-dark-gray: #302f2d;
 $darker-gray: #1c1c1b;
@@ -19,14 +18,73 @@ $default-yellow: #ffb10a;
 $lighter-yellow: #f7c559;
 $darker-yellow: #d69302;
 
+/* BLUE */
+$default-blue: #03a5fc;
+$lighter-blue: #2aaff7;
+$darker-blue: #016194;
+
+/* WHITE */
+$default-white: #fff;
+$lighter-white: #fff;
+$darker-white: #fcfaf9;
+
 .red {
-    color: $default-red;
+  color: $default-red;
 }
 
 .red-bg {
-    background-color: $default-red;
+  background-color: $default-red;
 }
 
 .red-border {
-    border: 5px solid $darker-red;
+  border: $small solid $darker-red;
 }
+
+.green {
+  color: $default-green;
+}
+
+.green-bg {
+  background-color: $default-green;
+}
+
+.green-border {
+  border: $small solid $darker-green;
+}
+
+.blue {
+  color: $default-blue;
+}
+
+.blue-bg {
+  background-color: $default-blue;
+}
+
+.blue-border {
+  border: $small solid $darker-blue;
+}
+
+.white {
+  color: $default-white;
+}
+
+.white-bg {
+  background-color: $default-white;
+}
+
+.white-border {
+  border: $small solid $darker-white;
+}
+
+.yellow {
+  color: $default-yellow;
+}
+
+.yellow-bg {
+  background-color: $default-yellow;
+}
+
+.yellow-border {
+  border: $small solid $darker-yellow;
+}
+

@@ -1,17 +1,33 @@
+$small: 0.3rem;
+$moderate: 0.6rem;
+$large: 1.25rem;
+
 @mixin rounded-5px {
-  border-radius: 5px;
+  border-radius: $small;
 }
 
 @mixin rounded-10px {
-  border-radius: 10px;
+  border-radius: $moderate;
 }
 
 @mixin minimal-padding {
-  padding: 5px;
+  padding: $small;
 }
 
 @mixin moderate-padding {
-  padding: 10px;
+  padding: $moderate;
+}
+
+.minimal-margin {
+  margin: $small;
+}
+
+.moderate-margin {
+  margin: $moderate;
+}
+
+.large-margin {
+  margin: $large;
 }
 
 .horizontal {
@@ -21,13 +37,13 @@
 }
 
 .vertical {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .evenly-spaced {
-    justify-content: space-evenly;
+  justify-content: space-evenly;
 }
 
 .space-around {
