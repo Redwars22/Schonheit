@@ -53,3 +53,11 @@ $large: 1.25rem;
 .circle {
   border-radius: 50% !important;
 }
+
+.minimal-gap {
+  gap: $small;
+}
+
+.moderate-gap {
+  gap: $moderate;
+}

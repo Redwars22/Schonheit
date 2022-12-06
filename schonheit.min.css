@@ -91,6 +91,14 @@ p {
   border-radius: 50% !important;
 }
 
+.minimal-gap {
+  gap: 0.3rem;
+}
+
+.moderate-gap {
+  gap: 0.6rem;
+}
+
 /* RED */
 /* GREEN */
 /* YELLOW */
