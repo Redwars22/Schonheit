@@ -15,3 +15,20 @@ code {
 .wrap {
   flex-wrap: wrap;
 }
+
+.table {
+  border-collapse: collapse;
+}
+
+td,
+tr {
+  @include minimal-padding;
+}
+
+thead {
+  @include bold;
+}
+
+.photo {
+  @include rounded-10px;
+}
