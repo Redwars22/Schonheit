@@ -28,6 +28,16 @@ $default-white: #fff;
 $lighter-white: #fff;
 $darker-white: #fcfaf9;
 
+/* PURPLE */
+$default-purple: #b602de;
+$lighter-purple: #80039c;
+$darker-purple: #cd02fa;
+
+/* ORANGE */
+$default-orange: #d66f00;
+$lighter-orange: #c46500;
+$darker-orange: #f7850a;
+
 .red {
   color: $default-red;
 }
@@ -88,3 +98,26 @@ $darker-white: #fcfaf9;
   border: $small solid $darker-yellow;
 }
 
+.purple {
+  color: $default-purple;
+}
+
+.purple-bg {
+  background-color: $default-purple;
+}
+
+.purple-border {
+  border: $small solid $darker-purple;
+}
+
+.orange {
+  color: $default-orange;
+}
+
+.orange-bg {
+  background-color: $default-orange;
+}
+
+.orange-border {
+  border: $small solid $darker-orange;
+}
