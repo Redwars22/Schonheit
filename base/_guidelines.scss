@@ -61,3 +61,8 @@ $large: 1.25rem;
 .moderate-gap {
   gap: $moderate;
 }
+
+.flex-center {
+  align-items: center;
+  justify-content: center;
+}

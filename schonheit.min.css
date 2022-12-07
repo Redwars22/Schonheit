@@ -99,6 +99,11 @@ p {
   gap: 0.6rem;
 }
 
+.flex-center {
+  align-items: center;
+  justify-content: center;
+}
+
 /* RED */
 /* GREEN */
 /* YELLOW */
