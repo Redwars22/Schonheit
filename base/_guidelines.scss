@@ -66,3 +66,25 @@ $large: 1.25rem;
   align-items: center;
   justify-content: center;
 }
+
+.flex-left {
+  justify-content: flex-end;
+}
+
+.flex-right {
+  justify-content: flex-start;
+}
+
+.flex-top {
+  align-items: flex-start;
+}
+
+.flex-bottom {
+  align-items: flex-end;
+}
+
+.fixed-at-top {
+}
+
+.fixed-at-bottom {
+}

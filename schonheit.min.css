@@ -53,9 +53,14 @@ p {
   text-align: right;
 }
 
-/*
-  .bold, .italic, .underline, .strikethrough
-  */
+.monospaced {
+  font-family: "JetBrains Mono", monospace;
+}
+
+.cursive {
+  font-family: "Cedarville Cursive", cursive;
+}
+
 .minimal-margin {
   margin: 0.3rem;
 }
@@ -103,6 +108,22 @@ p {
 .flex-center {
   align-items: center;
   justify-content: center;
+}
+
+.flex-left {
+  justify-content: flex-end;
+}
+
+.flex-right {
+  justify-content: flex-start;
+}
+
+.flex-top {
+  align-items: flex-start;
+}
+
+.flex-bottom {
+  align-items: flex-end;
 }
 
 /* RED */
@@ -319,6 +340,14 @@ button {
 .form-submit:hover {
   font-weight: bold;
   background-color: #2ff5a2;
+}
+
+.layout-with-leftbar {
+  display: grid;
+}
+
+.layout-with-rightbar {
+  display: grid;
 }
 
 body {

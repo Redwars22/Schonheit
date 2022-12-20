@@ -66,6 +66,10 @@ p {
   text-align: right;
 }
 
-/*
-  .bold, .italic, .underline, .strikethrough
-  */
+.monospaced {
+  font-family: 'JetBrains Mono', monospace;
+}
+
+.cursive {
+  font-family: 'Cedarville Cursive', cursive;
+}
