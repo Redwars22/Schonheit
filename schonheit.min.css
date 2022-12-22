@@ -126,6 +126,52 @@ p {
   align-items: flex-end;
 }
 
+.fixed-at-top {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+.fixed-at-bottom {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.rounded-10px {
+  border-radius: 0.6rem;
+}
+
+.rounded-30px {
+  border-radius: 1.88rem;
+}
+
+.rounded-50px {
+  border-radius: 2.13rem;
+}
+
+.minimal-padding {
+  padding: 0.3rem;
+}
+
+.moderate-padding {
+  padding: 0.6rem;
+}
+
+.large-margin {
+  padding: 1.25rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.grid {
+  display: grid;
+}
+
 /* RED */
 /* GREEN */
 /* YELLOW */
@@ -312,6 +358,18 @@ button {
 .outline {
   background-color: rgba(0, 0, 0, 0);
   color: #fff;
+}
+
+.dark {
+  background-color: #302f2d;
+  border-color: #fff;
+  color: #fff;
+}
+.dark:hover {
+  font-weight: bold;
+  background-color: #fff;
+  border-color: #302f2d;
+  color: #302f2d;
 }
 
 .form-input {

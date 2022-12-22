@@ -84,7 +84,47 @@ $large: 1.25rem;
 }
 
 .fixed-at-top {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
 }
 
 .fixed-at-bottom {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.rounded-10px {
+  border-radius: 0.6rem;
+}
+
+.rounded-30px {
+  border-radius: 1.88rem;
+}
+
+.rounded-50px {
+  border-radius: 2.13rem;
+}
+
+.minimal-padding {
+  padding: $small;
+}
+
+.moderate-padding {
+  padding: $moderate;
+}
+
+.large-margin {
+  padding: $large;
+}
+
+.flex {
+  display: flex;
+}
+
+.grid {
+  display: grid;
 }

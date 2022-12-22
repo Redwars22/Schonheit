@@ -64,4 +64,14 @@ button {
 }
 
 .dark {
+  background-color: $default-dark-gray;
+  border-color: $default-white;
+  color: $default-white;
+
+  &:hover {
+    @include bold;
+    background-color: $default-white;
+    border-color: $default-dark-gray;
+    color: $default-dark-gray;
+  }
 }
